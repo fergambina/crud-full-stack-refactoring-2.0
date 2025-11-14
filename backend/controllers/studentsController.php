@@ -17,7 +17,7 @@ function handleGet($conn)
 {
     if (isset($_GET['id'])) 
     {
-        $subject = getSubjectById($conn, $_GET['id']);
+        $subject = getStudentById($conn, $_GET['id']);
         echo json_encode($subject);
     } 
     //2.0

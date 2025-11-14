@@ -16,6 +16,7 @@ let currentPage = 1;
 let totalPages = 1;
 const limit = 5;
 
+
 document.addEventListener('DOMContentLoaded', () => 
 {
     loadStudents();
